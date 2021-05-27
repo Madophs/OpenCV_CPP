@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# build directory
+build
+
+# clangd stuff
+.clangd
+
+# Ignore compile commands
+compile_commands.json

@@ -1,0 +1,8 @@
+#ifndef _CVENV_H_
+#define _CVENV_H_
+
+#include <iostream>
+
+static const std::string ASSETS_PATH = "@ASSETS_PATH@";
+
+#endif
