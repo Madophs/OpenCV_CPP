@@ -29,8 +29,9 @@ int main(int argc, const char **argv)
         cv::imshow("Lena Gray", gray);
 
         cv::waitKey();
+        cv::destroyAllWindows();
     } else {
-        std::cout << "Could not open the file or image not found." << std::endl;
+        std::cerr << "Could not open the file or image not found." << std::endl;
     }
     return 0;
 }
